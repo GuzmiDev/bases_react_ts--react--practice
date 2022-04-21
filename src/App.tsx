@@ -1,14 +1,16 @@
-import { Counter } from "./components/Counter";
-import { Usuario } from "./components/Usuario";
-import { TimerPadre } from "./components/TimerPadre";
-import { ContadorRed } from "./components/ContadorRed";
-import { Formulario } from "./components/Formulario";
-import { Formulario2 } from "./components/Formulario2";
+// import { Counter } from "./components/Counter";
+// import { Usuario } from "./components/Usuario";
+// import { TimerPadre } from "./components/TimerPadre";
+// import { ContadorRed } from "./components/ContadorRed";
+// import { Formulario } from "./components/Formulario";
+// import { Formulario2 } from "./components/Formulario2";
+import { Todo } from "./todo/Todo";
 
 function App() {
   return (
     <>
-      <h1>React + Ts</h1>
+      <Todo />
+      {/* <h1>React + Ts</h1>
       <hr />
       <h2>useState</h2>
       <Counter />
@@ -28,7 +30,7 @@ function App() {
       <br />
       <br />
       <br />
-      <br />
+      <br /> */}
     </>
   );
 }
